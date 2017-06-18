@@ -1,0 +1,12 @@
+version: "2"
+services:
+  app-server:
+    build: .
+    ports:
+     - "80:80"
+    links:
+     - db
+  db:
+    image: redis:alpine
+    volumes:
+     - /var/lib/tech.otter.bestiary:/data

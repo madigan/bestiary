@@ -1,0 +1,27 @@
+{
+  "name": "bestiary",
+  "version": "1.0.0",
+  "description": "A compendium of monsters for the aspiring dungeon master.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/madigan/bestiary.git"
+  },
+  "keywords": [
+    "RPG",
+    "monsters"
+  ],
+  "author": "John Lynn <john@otter.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madigan/bestiary/issues"
+  },
+  "homepage": "https://github.com/madigan/bestiary#readme",
+  "dependencies": {
+    "redis":"^2.7.1",
+	"express":"^4.15.3"
+  }
+}
